@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="bmi.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+    <div class="container">
+        <h1>Body Mass Index (BMI) Calculator</h1>
+        <div class="height-box">
+            <label for="height">Your Height (cm) :</label>
+            <input type="number" name="height" max="272" placeholder="enter your height" class="heightInput">
+        </div>
+        <div class="weight-box">
+            <label for="weight">Your Weight (kg) :</label>
+            <input type="number" name="weight" placeholder="enter your weight" class="weightInput">
+        </div>
+        <button>Compute BMI</button>
+        <div class="result-box">
+            <label for="result">Your BMI:</label>
+            <div class="result"></div> 
+        </div>
+        <h3>Weight Condition: <span></span> </h3>
+    </div>
+    <p>More information about <a target="_blank" href="https://www.calculator.net/bmi-calculator.html?ctype=metric&cage=30&csex=m&cheightfeet=5&cheightinch=10&cpound=160&cheightmeter=172&ckg=63&printit=0&x=63&y=24">BMI</a></p>
+    <script src="script.js"></script>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
